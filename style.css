@@ -8,6 +8,8 @@
 
 body {
     margin-bottom: 60px; 
+    background-color: #F2E1E1;
+    font-family: "Raleway", sans-serif;
 }
 
 
@@ -78,6 +80,61 @@ body {
 .menu ul li a:hover{
     background-color: gray;
 }
+
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center; /* Yatayda ortalar */
+  align-items: center;  
+ 
+}
+
+.details {
+   margin-top: 70px;
+   display: flex;
+   justify-content: center; 
+   align-items: center;     
+   flex-direction: column;
+
+}
+.details h1{
+    text-align: center;
+    color: gray;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+}
+.details img{
+    opacity: 0.8;
+     width: 100%;
+     height: auto;
+    background-size: cover;
+}
+.details p{
+    margin-top: 30px;
+    font-style: italic;
+    line-height: 30px;
+}
+.details button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 20px 28px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    margin: 50px auto;
+    font-size: 17px;
+}
+.details button:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+
 
 
 
