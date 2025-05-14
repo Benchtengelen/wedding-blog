@@ -89,7 +89,7 @@ body {
 
 .container2 {
   display: flex;
-  justify-content: center; /* Yatayda ortalar */
+  justify-content: center; 
   align-items: center;  
  
 }
@@ -136,8 +136,140 @@ body {
 
 
 
+.picture2 {
+    background-image: url("img/flovers.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 120vh;
+}
+
+.picture2 .write2{
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  text-align: center;
+  color: white;
+ }
+ .picture2 .write2 p{
+    font-size: 70px;
+ }
+ .picture2 .write2 .p2{
+    font-size: 40px;
+    margin-top: 50px;
+ }
+ .details2 img{
+     width: 100%;
+     height: auto;
+ }
+
+ .details2 h1{
+    text-align: center;
+    color: gray;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+ }
+
+ .details2 .flex-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    text-align: center;
+   }
+.details2 .flex-card .card1 p{
+    padding: 10px;
+}
+.details2 .flex-card .card2 p{
+    padding: 10px;
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: column;    
+  justify-content: center;    
+  align-items: center;        
+  height: 300px;              
+  background-color: #FFDDDD;    
+  color: white;               
+  text-align: center;         
+  gap: 10px; 
+  margin-top: 100px;
+                  
+}
+
+.footer .write5{
+    margin-top: -20px;
+}
+.footer p{
+ color: black;
+ font-size: 35px;
+ letter-spacing: 4px;
+ margin-top: 30px;
+  }
+  .footer .p4{
+    font-size: 15px;
+  }
+
+  .footer button{
+    margin-top: 40px;
+    background-color: #F88078;
+    color: white;
+    border: none;
+    padding: 20px 60px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  .footer button:hover{
+    background-color: gray;
+    color: black;
+  }
+
+
+  .footer2{
+    background-color: black;
+    height: 10vh;
+  }
+  .footer2 p{
+    color: white;
+    text-align: center;
+    line-height: 80px;
+  }
+  .footer2 p a{
+    color: white;
+  }
+ 
 
 
 
 
+@media screen and (max-width:600px) {
+    
+      .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+ 
+
+ .details2 .flex-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    text-align: center;
+   }
+
+   .menu {
+    display: none;
+   }
+
+ 
+
+
+
+}
 
